@@ -1,32 +1,15 @@
 {
+  "name": "stratum-pool",
   "version": "0.0.1",
+  "description": "aion - stratum pool server",
   "author": {
     "name": "chris"
   },
-  "bugs": {
-    "url": "https://github.com/nuco-chris/stratum-pool/issues"
-  },
-  "bundleDependencies": false,
+  "main": "lib/index.js",
   "dependencies": {
     "base58-native": "*",
     "async": "*",
     "bignum": "*",
     "equihashverify": "git+https://github.com/RossKitsis/equihashverify.git"
-  },
-  "deprecated": false,
-  "description": "aion - stratum pool server",
-  "homepage": "https://github.com/nuco-chris/stratum-pool",
-  "keywords": [
-    "stratum",
-    "pool",
-    "equihash",
-    "aion"
-  ],
-  "license": "GPL-2.0",
-  "main": "lib/index.js",
-  "name": "stratum-pool",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nuco-chris/stratum-pool.git"
   }
 }
