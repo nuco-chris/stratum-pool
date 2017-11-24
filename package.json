@@ -1,26 +1,5 @@
 {
-  "_from": "git+https://github.com/nuco-chris/stratum-pool.git",
-  "_id": "stratum-pool@0.0.1",
-  "_inBundle": false,
-  "_integrity": "sha1-d7MGDFTFkVqRVI1epv/S94cyumM=",
-  "_location": "/stratum-pool",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "stratum-pool@git+https://github.com/nuco-chris/stratum-pool.git",
-    "name": "stratum-pool",
-    "escapedName": "stratum-pool",
-    "rawSpec": "git+https://github.com/nuco-chris/stratum-pool.git",
-    "saveSpec": "git+https://github.com/nuco-chris/stratum-pool.git",
-    "fetchSpec": "https://github.com/nuco-chris/stratum-pool.git",
-    "gitCommittish": "master"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/nuco-chris/stratum-pool.git#bb086258d2b2ab7ae7e18b3d3a0f2bef79730b54",
-  "_spec": "stratum-pool@git+https://github.com/nuco-chris/stratum-pool.git",
-  "_where": "/home/chris/pool",
+  "version": "0.0.1",
   "author": {
     "name": "chris"
   },
@@ -29,6 +8,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
+    "base58-native": "*",
     "async": "*",
     "bignum": "*",
     "equihashverify": "git+https://github.com/RossKitsis/equihashverify.git"
@@ -48,6 +28,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuco-chris/stratum-pool.git"
-  },
-  "version": "0.0.1"
+  }
 }
