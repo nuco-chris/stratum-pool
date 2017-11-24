@@ -6,6 +6,7 @@
     "name": "chris"
   },
   "main": "lib/index.js",
+  "bundleDependencies": false,
   "dependencies": {
     "base58-native": "*",
     "async": "*",
